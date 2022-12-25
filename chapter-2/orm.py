@@ -47,5 +47,5 @@ def start_mappers():
         }
     )
 
-engine = create_engine('sqlite:///database.db')
-metadata.create_all(bind=engine, tables=[order_lines, batches, allocations])
+#engine = create_engine('sqlite:///database.db')
+#metadata.create_all(bind=engine, tables=[order_lines, batches, allocations])
